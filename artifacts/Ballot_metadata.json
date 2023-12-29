@@ -33,6 +33,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "delegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "voter",
 						"type": "address"
 					}
@@ -69,6 +82,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "proposal",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -99,11 +125,41 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winnerName",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "winnerName_",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winningProposal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "winningProposal_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"winningProposal()": {
+					"details": "Computes the winning proposal taking all previous votes into account."
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
@@ -129,11 +185,11 @@
 	},
 	"sources": {
 		"Рабочий стол/ETH projects/Simple Voting/voting.sol": {
-			"keccak256": "0x3b49a642043862f81bd5ceb7f372af4d7d1e1342894ef37309ffe1a0fbdb7c53",
+			"keccak256": "0xa6bfb60fd18616bf35f4851990baeaf906ee02b74b44936a4c39abcd0407dec0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fb46bb9b3b1d21684a84b479889bef443aaec3c1464571db8921615119a58466",
-				"dweb:/ipfs/QmTiVqeEdB7NjSzPdYG61QzM8yrLxtR2EJ48jQ8QGBEqdP"
+				"bzz-raw://45c1eb4b9282bc5a69c00d1e937f61d530a191ccdc7c7ca05ed7f52c73e9f4bc",
+				"dweb:/ipfs/QmXsoXEy3rBkjL1c2Wyqqg6GXdNRBfvoNmqoCEnw4ynrLa"
 			]
 		}
 	},
