@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Рабочий стол/ETH projects/Simple Voting/voting.sol": "Ballot"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Рабочий стол/ETH projects/Simple Voting/voting.sol": {
+			"keccak256": "0x7991c7737ebf37a607b4143bc62cd17e592a52cd5a1b301aa67a40f3e692a43e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d58c9d1382f0a2439fbb4b327df7b642f6ccff74f07dab9773b060b4780d9908",
+				"dweb:/ipfs/QmQEXSAPY1dkqzQDW48GxTgg1taxJ8UakjtUfofj9ehYP5"
+			]
+		}
+	},
+	"version": 1
+}
