@@ -32,6 +32,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					}
+				],
+				"name": "giveRightToVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -116,11 +129,11 @@
 	},
 	"sources": {
 		"Рабочий стол/ETH projects/Simple Voting/voting.sol": {
-			"keccak256": "0x1742b8e03eb31667a4d50aba19460a053a66a89efc2ab8aff027b4a14e4476a3",
+			"keccak256": "0x3b49a642043862f81bd5ceb7f372af4d7d1e1342894ef37309ffe1a0fbdb7c53",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fc8573f80d4e8a16aaf87b5fd91a23d831fb0b6dc1913c5ca1c12a3f883332d2",
-				"dweb:/ipfs/QmZJLLi1yh5UnP3MW4sS9phsQaK1QQTTibJbnCAxHS3yqE"
+				"bzz-raw://fb46bb9b3b1d21684a84b479889bef443aaec3c1464571db8921615119a58466",
+				"dweb:/ipfs/QmTiVqeEdB7NjSzPdYG61QzM8yrLxtR2EJ48jQ8QGBEqdP"
 			]
 		}
 	},
