@@ -4,7 +4,90 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proposalNames",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "chairperson",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "proposals",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "name",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "voteCount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "voters",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "voted",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "delegate",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "vote",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +116,11 @@
 	},
 	"sources": {
 		"Рабочий стол/ETH projects/Simple Voting/voting.sol": {
-			"keccak256": "0x7991c7737ebf37a607b4143bc62cd17e592a52cd5a1b301aa67a40f3e692a43e",
+			"keccak256": "0x1742b8e03eb31667a4d50aba19460a053a66a89efc2ab8aff027b4a14e4476a3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d58c9d1382f0a2439fbb4b327df7b642f6ccff74f07dab9773b060b4780d9908",
-				"dweb:/ipfs/QmQEXSAPY1dkqzQDW48GxTgg1taxJ8UakjtUfofj9ehYP5"
+				"bzz-raw://fc8573f80d4e8a16aaf87b5fd91a23d831fb0b6dc1913c5ca1c12a3f883332d2",
+				"dweb:/ipfs/QmZJLLi1yh5UnP3MW4sS9phsQaK1QQTTibJbnCAxHS3yqE"
 			]
 		}
 	},
